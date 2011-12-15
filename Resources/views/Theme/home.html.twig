@@ -1,0 +1,66 @@
+{#
+   This file is part of the AlphaLemonThemeBundle Theme and it is distributed
+   under the MIT License. In addiction, to use this bundle, you must leave
+   intact this copyright notice.
+ 
+    (c) Since 2011 AlphaLemon
+ 
+   For the full copyright and license information, please view the LICENSE
+   file that was distributed with this source code.
+ 
+   For extra documentation and help please visit http://alphalemon.com
+  
+   @license    MIT License
+#}
+ 
+{% extends base_template %}
+
+{% block body %}
+    <div id="header">
+        <div class="container_16 reset_margin">
+            <div id="search-box" class="grid_6">
+                {{ renderSlot('search_box') }}
+            </div>
+            <div id="nav-menu" class="grid_9">
+                {{ renderSlot('nav_menu') }}
+            </div>
+            <div class="float_reset"></div>
+        </div>
+    </div>
+    <div id="header-1">
+        <div class="container_16 reset_margin">
+            <div id="logo" class="grid_8">
+                {{ renderSlot('logo') }}
+            </div>	
+            <div class="float_reset"></div>
+        </div>
+    </div>
+    <div id="contents">
+        <div class="container_16 reset_margin">
+            <div id="right-column" class="grid_11">
+                {{ renderSlot('content') }}
+            </div>	
+            <div id="promo" class="grid_4 alpha">
+                {{ renderSlot('slogan_box') }}
+            </div>
+            <div class="float_reset"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container_16 reset_margin">
+            <div id="bottom_menus">
+                <div id="nav_menu_1" class="grid_4">
+                    {{ renderSlot('nav_menu_1') }}
+                </div>	
+                <div id="nav_menu_2" class="grid_4">
+                    {{ renderSlot('nav_menu_2') }}
+                </div>
+                <div id="social_box" class="grid_3">
+                    {{ renderSlot('social_box') }}
+                </div>
+            </div>
+            <div id="elephant" class="grid_5 omega"></div>
+            <div class="float_reset"></div>
+        </div>
+    </div>
+{% endblock %}
