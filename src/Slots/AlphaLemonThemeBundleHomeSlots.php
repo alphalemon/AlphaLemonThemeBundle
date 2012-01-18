@@ -17,8 +17,8 @@
 
 namespace Themes\AlphaLemonThemeBundle\src\Slots;
 
-use ThemeEngineCore\TemplateSlots\AlTemplateSlots;
-use ThemeEngineCore\TemplateSlots\AlSlot;
+use AlphaLemon\ThemeEngineBundle\Core\TemplateSlots\AlTemplateSlots;
+use AlphaLemon\ThemeEngineBundle\Core\TemplateSlots\AlSlot;
 
 /**
  * Defines the Home template
