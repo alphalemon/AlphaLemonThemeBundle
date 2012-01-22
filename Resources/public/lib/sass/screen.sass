@@ -1,0 +1,96 @@
+@import "compass/typography"
+
+body
+  :text-align left
+  :font normal 16px/20px Arial, Verdana, "San Serif"
+  :color #525252
+  
+#header
+  :width 100%
+  :height 40px
+  :background-color #666
+  :color #FFF
+  :border-bottom 1px solid #FFF
+
+#nav-menu
+  +horizontal-list
+    
+  a   
+    +unstyled-link
+    +link-colors(#FF9900, #0cc, #c0c, #ccc, #cc0)
+    :font-size 20px
+  
+  a:hover
+    :cursor pointer
+  
+  ul
+    padding: 0
+    margin: 0
+  
+  li
+    :float right
+    :padding 0 14px
+    
+    &:first-child 
+      :padding-right 0
+  
+#search-box, #nav-menu, #right-column
+  :padding 8px	
+	
+#header-1
+  :width 100%
+  :height 158px
+  :background-image url(../images/header.png) 
+  :color #FFF
+  
+#logo
+  :width 425px
+  :height 45px
+  :margin-left 30px
+  :margin-top 50px
+
+#promo
+  :height 338px
+  :padding 4px
+  :top -60px
+  :position relative
+  :color #FFF
+  :background transparent url(../images/promo.png) no-repeat
+  :font bold 20px/22px Arial, Verdana, "San Serif"
+  :padding 20px
+ 
+#contents
+  :min-height 500px
+  :border-bottom 1px solid #000
+  
+  a   
+    +unstyled-link
+    +link-colors(#09c, #009, #c0c, #ccc, #cc0)
+
+#footer
+  :height 270px
+  :color #FFF
+  :padding-top 20px
+  :background #242424 url(../images/footer.png) repeat-x
+  :border-top 1px solid #FFF
+  
+  li
+    +no-bullets
+    :padding-bottom 8px
+    
+  a   
+    +unstyled-link
+    +link-colors(#fff, #0cc, #c0c, #ccc, #cc0)
+    :font-size 18px
+  
+#elephant
+  :height 251px
+  :top -220px
+  :position relative
+  :background transparent url(../images/php.png) no-repeat
+  
+.reset_margin
+  :margin 	 0
+  
+.float_reset
+  :clear both

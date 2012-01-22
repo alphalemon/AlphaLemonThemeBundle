@@ -1,0 +1,220 @@
+/* line 3, ../sass/screen.sass */
+body {
+  text-align: left;
+  font: normal 16px/20px Arial, Verdana, "San Serif";
+  color: #525252;
+}
+
+/* line 8, ../sass/screen.sass */
+#header {
+  width: 100%;
+  height: 40px;
+  background-color: #666666;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* line 15, ../sass/screen.sass */
+#nav-menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 60, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#nav-menu li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+/* line 48, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#nav-menu li:first-child, #nav-menu li.first {
+  padding-left: 0;
+}
+/* line 49, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#nav-menu li:last-child {
+  padding-right: 0;
+}
+/* line 50, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#nav-menu li.last {
+  padding-right: 0;
+}
+/* line 18, ../sass/screen.sass */
+#nav-menu a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #ff9900;
+  font-size: 20px;
+}
+/* line 6, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#nav-menu a:active, #nav-menu a:focus {
+  outline: none;
+}
+/* line 18, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#nav-menu a:visited {
+  color: #cccccc;
+}
+/* line 21, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#nav-menu a:focus {
+  color: #cccc00;
+}
+/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#nav-menu a:hover {
+  color: #00cccc;
+}
+/* line 27, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#nav-menu a:active {
+  color: #cc00cc;
+}
+/* line 23, ../sass/screen.sass */
+#nav-menu a:hover {
+  cursor: pointer;
+}
+/* line 26, ../sass/screen.sass */
+#nav-menu li {
+  float: right;
+  padding: 0 14px;
+}
+/* line 30, ../sass/screen.sass */
+#nav-menu li:first-child {
+  padding-right: 0;
+}
+
+/* line 33, ../sass/screen.sass */
+#search-box, #nav-menu, #right-column {
+  padding: 8px;
+}
+
+/* line 36, ../sass/screen.sass */
+#header-1 {
+  width: 100%;
+  height: 158px;
+  background-image: url(../images/header.png);
+  color: white;
+}
+
+/* line 42, ../sass/screen.sass */
+#logo {
+  width: 425px;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+
+/* line 48, ../sass/screen.sass */
+#promo {
+  height: 338px;
+  padding: 4px;
+  top: -60px;
+  position: relative;
+  color: white;
+  background: transparent url(../images/promo.png) no-repeat;
+  font: bold 20px/22px Arial, Verdana, "San Serif";
+  padding: 20px;
+}
+
+/* line 58, ../sass/screen.sass */
+#contents {
+  min-height: 500px;
+  border-bottom: 1px solid black;
+}
+/* line 62, ../sass/screen.sass */
+#contents a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: #0099cc;
+}
+/* line 6, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#contents a:active, #contents a:focus {
+  outline: none;
+}
+/* line 18, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#contents a:visited {
+  color: #cccccc;
+}
+/* line 21, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#contents a:focus {
+  color: #cccc00;
+}
+/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#contents a:hover {
+  color: #000099;
+}
+/* line 27, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#contents a:active {
+  color: #cc00cc;
+}
+
+/* line 66, ../sass/screen.sass */
+#footer {
+  height: 270px;
+  color: white;
+  padding-top: 20px;
+  background: #242424 url(../images/footer.png) repeat-x;
+  border-top: 1px solid white;
+}
+/* line 73, ../sass/screen.sass */
+#footer li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+/* line 11, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/lists/_bullets.scss */
+#footer li li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0px;
+}
+/* line 77, ../sass/screen.sass */
+#footer a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  color: white;
+  font-size: 18px;
+}
+/* line 6, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+#footer a:active, #footer a:focus {
+  outline: none;
+}
+/* line 18, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:visited {
+  color: #cccccc;
+}
+/* line 21, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:focus {
+  color: #cccc00;
+}
+/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:hover {
+  color: #00cccc;
+}
+/* line 27, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+#footer a:active {
+  color: #cc00cc;
+}
+
+/* line 82, ../sass/screen.sass */
+#elephant {
+  height: 251px;
+  top: -220px;
+  position: relative;
+  background: transparent url(../images/php.png) no-repeat;
+}
+
+/* line 88, ../sass/screen.sass */
+.reset_margin {
+  margin: 0;
+}
+
+/* line 91, ../sass/screen.sass */
+.float_reset {
+  clear: both;
+}
