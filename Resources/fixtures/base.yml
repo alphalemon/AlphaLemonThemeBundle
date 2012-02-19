@@ -1,0 +1,34 @@
+slots:
+  logo: 
+    repeated: site
+    defaultText: |
+      The company logo
+  search_box:
+    repeated: language
+    defaultText: |
+      Search <input type="text" value="" size="10" /> <input type="submit" />
+  nav_menu:
+    repeated: language
+    defaultText: |
+      <ul><li><a href="#">Home page</a></li><li><a href="#">About</a></li><li><a href="#">Contacts</a></li></ul>
+  slogan_box:
+    repeated: language
+    defaultText: |
+      <p>This is the base template used by AlphaLemon ThemeBundle.<br /><br />Feel free to customize it for your needs</p>
+  nav_menu_1:
+    repeated: language
+    defaultText: |
+      <ul><li><a href="#">Home page</a></li><li><a href="#">About</a></li><li><a href="#">Contacts</a></li></ul>
+  nav_menu_2:
+    repeated: language
+    defaultText: |
+      <ul>
+        <li><a href="http://alphalemon.com">AlphaLemon</a></li>
+        <li><a href="http://symfony.com/doc/current/book/index.html">Symfony2 Documentation</a></li>
+        <li><a href="http://symfony.com/doc/current/cookbook/index.html">Symfony2 Cookbook</a></li>
+        <li><a href="http://www.propelorm.org">Propel Orm</a></li>
+      </ul>   
+  social_box:
+    repeated: language
+    defaultText: |
+      <p>Follow us!</p>
